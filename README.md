@@ -1,6 +1,8 @@
 # ESG-HR
 
-**Entity-Score-Guided Hybrid Retrieval with Iterative Chain-of-Thought Reasoning for Multi-Hop and Medical Question Answering**
+**ESG-HR: Entity-Score-Guided Hybrid Retrieval with Iterative
+Chain-of-Thought Reasoning for Multi-Hop General and Medical
+Question Answering**
 
 This is the **source package of ESG-HR — a **unified
 retrieval-and-reasoning pipeline** for multi-hop and medical question answering.
