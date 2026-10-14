@@ -1,11 +1,8 @@
 # ESG-HR
 
-**ESG-HR: Entity-Score-Guided Hybrid Retrieval with Iterative
-Chain-of-Thought Reasoning for Multi-Hop General and Medical
-Question Answering**
+**ESG-HR: Entity-Score-Guided Hybrid Retrieval with Iterative Chain-of-Thought Reasoning for Multi-Hop General and Medical Question Answering**
 
-This is the **source package of ESG-HR — a **unified
-retrieval-and-reasoning pipeline** for multi-hop and medical question answering.
+This is the source package of ESG-HR — a unified retrieval-and-reasoning pipeline** for multi-hop and medical question answering.
 Core idea: a **Graph Foundation Model (GFM-RAG)**, while reasoning over a knowledge
 graph, produces an **entity-relevance tensor** $P_q \in [0,1]^{|\mathcal{V}|}$.
 Instead of discarding this tensor, ESG-HR **keeps it and uses it to steer an
@@ -24,7 +21,7 @@ loop with structured JSON output drives the process across multiple hops.
 | HotpotQA (EN, 2-hop) | **86.75** | **95.65** | **66.10 / 79.57** | — |
 | MuSiQue (EN, 2–4 hop) | **56.32** | **74.88** | **41.90 / 52.46** | — |
 | PubMedQA (EN, medical) | **65.79** | **86.76** | — | **401/1000** |
-| Vietnamese Medical | **98.50** | **98.79** | — | **886/1000** |
+| ViMedAQA | **98.50** | **98.79** | — | **886/1000** |
 
 ---
 
@@ -137,7 +134,7 @@ Place raw data under `data/<data_name>/raw/`:
 | HotpotQA | General | EN | 2-hop | Wikipedia |
 | MuSiQue | General | EN | 2–4 hop | Wikipedia |
 | PubMedQA | Medical | EN | Multi-hop | PubMed abstracts |
-| Vietnamese Medical | Medical | VI | Multi-hop | Treatment guidelines / pharmacopoeia |
+| ViMedAQA | Medical | VI | Multi-hop | Treatment guidelines / pharmacopoeia |
 
 ## 7. Usage
 
